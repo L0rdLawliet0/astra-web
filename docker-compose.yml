@@ -1,0 +1,16 @@
+services:
+  web:
+    build: .
+    container_name: astra_site_web
+    expose:
+      - "3000"
+    environment:
+      - NODE_ENV=production
+    command: ["npm", "start"]
+    networks:
+      - mailu_default
+    restart: unless-stopped
+
+networks:
+  mailu_default:
+    external: true

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to bottom right, #0d0d1d, #1c1c3c);
+  font-family: 'Inter', sans-serif;
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  @apply underline hover:text-cyan-400;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
