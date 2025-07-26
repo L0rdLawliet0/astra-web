@@ -1,0 +1,14 @@
+cd /astra-site
+git status
+
+git add .
+
+git commit -m "Un message qui décrit les changements"
+
+git push
+
+
+
+git pull --rebase
+# (résous les éventuels conflits si besoin)
+git push

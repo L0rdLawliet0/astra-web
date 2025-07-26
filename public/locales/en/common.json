@@ -16,5 +16,7 @@
   "menu_testnet": "Testnet",
   "menu_telegram": "Telegram",
   "menu_x": "X/Twitter",
-  "menu_discord": "Discord"
+  "menu_discord": "Discord",
+  "no_docs": "No documents available yet.",
+  "docs_page_title": "Documents"
 }
